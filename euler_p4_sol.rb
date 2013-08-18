@@ -49,7 +49,7 @@ end
 # find all factors of val
 def find_factors_of_val val
 	val_current = val
-	bound_max = sqrt(val).to_i
+	bound_max = sqrt(val).to_i + 1
 	bound_min = 2
 	check_list = (bound_min...(bound_max+1)).to_a
 	factors = []
@@ -87,8 +87,6 @@ def check_if_factors_can_form_2_3_digit_nums factors
 	factors.each do |val|
 		temp1 = val1*val
 		temp2 = val2*val
-
-		puts "#{val1}, #{val2}, #{temp1}, #{temp2}, #{val}"
 
 		if temp1 < 1000 && val2 > 100
 			val1 = temp1
