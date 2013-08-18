@@ -36,8 +36,7 @@ def find_prime num
 	end
 
 	result = result.size == 0 ? [num] : result
-	result.max
+	puts result.max
 end
 
 result = find_prime 600851475143
-puts result
