@@ -43,3 +43,6 @@ def calculate_prime_sum_under bound
 end
 
 puts calculate_prime_sum_under 2000000
+
+
+

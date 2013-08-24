@@ -1,8 +1,5 @@
 # problem 8
-
 # Find the greatest product of five consecutive digits in the 1000-digit number.
-
-
 # optimization can be done by skipping substring that contains 0
 
 def find_greatest_product_of_five_consecutive_digits val
